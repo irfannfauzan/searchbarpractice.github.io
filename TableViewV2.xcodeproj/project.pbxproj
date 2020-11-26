@@ -12,6 +12,8 @@
 		0460137E25654F4000D0CD90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0460137C25654F4000D0CD90 /* Main.storyboard */; };
 		0460138025654F4000D0CD90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0460137F25654F4000D0CD90 /* Assets.xcassets */; };
 		0460138325654F4000D0CD90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0460138125654F4000D0CD90 /* LaunchScreen.storyboard */; };
+		0460138B256554E200D0CD90 /* KursusTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0460138A256554E200D0CD90 /* KursusTableViewController.swift */; };
+		0460138D25655A7D00D0CD90 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0460138C25655A7D00D0CD90 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		0460137F25654F4000D0CD90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0460138225654F4000D0CD90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0460138425654F4000D0CD90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0460138A256554E200D0CD90 /* KursusTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KursusTableViewController.swift; sourceTree = "<group>"; };
+		0460138C25655A7D00D0CD90 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				0460137F25654F4000D0CD90 /* Assets.xcassets */,
 				0460138125654F4000D0CD90 /* LaunchScreen.storyboard */,
 				0460138425654F4000D0CD90 /* Info.plist */,
+				0460138A256554E200D0CD90 /* KursusTableViewController.swift */,
+				0460138C25655A7D00D0CD90 /* DetailViewController.swift */,
 			);
 			path = TableViewV2;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			files = (
 				0460137B25654F4000D0CD90 /* ViewController.swift in Sources */,
 				0460137925654F4000D0CD90 /* AppDelegate.swift in Sources */,
+				0460138B256554E200D0CD90 /* KursusTableViewController.swift in Sources */,
+				0460138D25655A7D00D0CD90 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
